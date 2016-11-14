@@ -8,7 +8,7 @@ my $config = { client_id => "xxxxxxxxxx"
              , secret    => "xxxxxxxxxx"
              , scope     => 'https://www.googleapis.com/auth/drive.readonly'
              , oauth_url => 'https://accounts.google.com/o/oauth2'
-             , cb        => 'http://localhost:5555/cb'
+             , cb        => 'http://localhost:3000/cb'
              };
 # Home dir
 get '/' => sub {
